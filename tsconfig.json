@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "rootDir": ".",
+    "strict": false,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "inlineSources": true,
+    "module": "CommonJS",
+    "target": "es2017",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "skipLibCheck": true
+  },
+
+  "include": [".", "types.d.ts"]
+}
