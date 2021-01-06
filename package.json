@@ -1,6 +1,6 @@
 {
   "name": "di-markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown for Lit (Project based on remarkable & DOMPurify)",
   "main": "dist/di-markdown.js",
   "repository": {

@@ -1,5 +1,6 @@
 import createDOMPurify from "dompurify";
 import {
+  css,
   customElement,
   html,
   internalProperty,
@@ -11,6 +12,24 @@ import { Remarkable } from "remarkable";
 
 @customElement("di-markdown")
 export class DiMarkdown extends LitElement {
+  static styles = [css`
+    label,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li {
+      white-space: break-spaces;
+    }
+
+    :host{
+      width:100%
+    }
+  
+  `]
   @property()
   source = "# Remarkable";
 
